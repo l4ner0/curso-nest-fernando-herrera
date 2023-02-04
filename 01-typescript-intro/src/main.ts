@@ -1,11 +1,11 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter'
-import { bulbasaur } from './bases/02-objects'
-import { Pokemon } from './bases/03-classes'
-
-const charmander = new Pokemon(4, 'Charmander')
-charmander.getMoves();
+/* import { bulbasaur } from './bases/02-objects' */
+/* import { Pokemon } from './bases/03-classes' */
+/* import { charmander } from './bases/04-injection' */
+/* import { charmander } from './bases/05-decorators' */
+import { charmander } from './bases/06-decorators2'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -22,7 +22,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more
     </p>
-    ${bulbasaur}
+    ${charmander.name}
   </div>
 `
 
