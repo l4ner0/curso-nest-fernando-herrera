@@ -71,3 +71,15 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## Variables de entorno
+5. CLonar el archivo ```.env.template``` y renombrar la copia a ```.env```
+
+6. LLenar las variables de entorno definidas en el ```.env```
+
+7. Ejecutar la aplicación en dev:
+```
+yarn start:Dev
+```
+
