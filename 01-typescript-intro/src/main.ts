@@ -1,5 +1,5 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
+import typescriptLogo from './typescript.svg';
 import { setupCounter } from './counter'
 /* import { bulbasaur } from './bases/02-objects' */
 /* import { Pokemon } from './bases/03-classes' */
