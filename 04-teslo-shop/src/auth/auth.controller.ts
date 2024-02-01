@@ -57,4 +57,10 @@ export class AuthController {
       user,
     };
   }
+
+  @Get('check-status')
+  @Auth()
+  checkAuthStatus(@GetUser() user: User) {
+    return this.authService.checkAuthStatus(user);
+  }
 }
